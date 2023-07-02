@@ -1,1 +1,16 @@
-h1{ color: #ff6600;}
+h1 { color: #ff6600;}
+h2 { text-align: center;}
+#para1::first-letter {
+    font-size: x-large;
+    font-weight: bold;
+    color: #2c8bea;
+}
+.para { text-indent: 2em;}
+main p {
+    width: auto;
+    height: auto;
+    padding: auto;
+    margin: 0;
+    border: none;
+    background-color: #f9f6f3;   
+}
