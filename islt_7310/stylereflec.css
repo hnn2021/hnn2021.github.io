@@ -1,0 +1,106 @@
+/* style for about page*/
+
+h1 { color: #ff6600;
+text-align: center
+}
+h2 {
+text-align: center;
+}
+
+main {
+    width: 70%;
+    height: 100%;
+    padding: auto;
+    margin-left: 150pt;
+    word-spacing: normal;
+    line-height: 20pt;
+    border: none; 
+}
+.grid {
+    display: grid;
+    background-color: #d7dee5;
+    grid-template-rows: auto auto;
+    grid-template-columns: 2fr 2fr; 
+  }
+ 
+  main {
+    grid-row: 1;
+    grid-column: 1 / span 2;
+  }
+
+
+  footer{
+    grid-row: 2;
+    grid-column: 1 ;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: medium;
+  }
+  #quicknav {
+    grid-row: 2;
+    grid-column: 2;
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 30%;
+    font-size: large;
+    font-weight: bold;
+
+  }
+  #nav_list {
+    grid-row: 2;
+    grid-column: 2;
+    margin-right: 50pt;
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    header {
+      text-align: center;
+      font-size: medium;
+      margin-left: 10pt;
+      width: 100%;
+    }
+  
+    .grid {
+      background-color: #ffffff;
+      grid-row: auto auto auto;
+      grid-template-columns: 1fr 1fr; 
+    }
+
+ header {
+      font-size: medium;
+      margin: 5pt;
+      width: 500pt;
+      float: center;
+    }
+
+    main {
+      grid-row: 2; 
+      grid-column: 1 / span 2;
+      margin-right: 0;
+      width: 50%;
+      margin-top: 280px;
+      margin-left: 90px;
+      margin-bottom: 10pt;
+      font-size: 1.20em;
+      text-align: center;
+      padding: 10pt;
+    }
+  
+
+    footer {
+      grid-row: 3;
+      grid-column: 1;
+      font-size: 1.00em;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      margin-left: 70pt;
+    }
+    #nav_list {
+      grid-row: 3;
+      grid-column: 2 ;
+      font-size: 1.00em;
+    }
+
+  }

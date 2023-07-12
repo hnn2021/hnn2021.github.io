@@ -14,26 +14,38 @@ Tested: July 1, 2023; Passed on Chrome browsers.
                <meta charset="utf-8">
                <meta name="viewport" content="width=device-width,initial-scale=1">
                <title>Home Page</title>
-               <link rel="stylesheet" href="style.css">
+               <link rel="stylesheet" href="stylehome.css">
                <link rel="stylesheet" href="nav.css">
 </head>
 <body>
-     <nav> 
-          <ul>
-           <li class="nav"><a href="#">Contact</a></li> 
-           <li class="nav"><a href="reflection.html">Reflection</a></li>
-           <li class="nav"><a href="project.html">Project</a>
-                <ul class="dropdown">
-                  <li><a href="#">Link1</a></li>
-                  <li><a href="#">Link2</a></li>
-                  <li><a href="#">Link3</a></li>
-                </ul>
-          </li>
-           <li class="nav"><a href="about.html">About</a></li>
-           <li class="nav"><a href="index.html">Home</a></li>   
-         </ul>
-      </nav>
-      <header> <p> Nannan Huang</p> </header>
+     <header>
+     <div class="nav">
+          <label for="toggle">&#9776;</label>
+          <input type="checkbox" id="toggle"/>
+           <div class="mobilemenu">
+              <ul>
+                <li class="menu"><a href="#">Contact</a></li> 
+                <li class="menu" ><a href="reflection.html">Reflection</a></li>
+                <li class="menu"><a href="project.html">Project</a>
+                    <ul class="dropdown" id="hideitem">
+                      <li><a href="#">Link1</a></li>
+                      <li><a href="#">Link2</a></li>
+                      <li><a href="#">Link3</a></li>
+                    </ul>
+                </li>
+                <li class="menu"><a href="about.html">About</a></li>
+                <li class="menu" ><a href="index.html">Home</a></li>   
+             </ul>
+             </div>
+             <p> Nannan Huang</p>
+            </div>
+          </header>
+
+
+
+<div class="grid">
+     
+     <img src="photo.JPG" alt="about me image" id="myImage">
     <main>
           <h1> Hello! </h1>
           <h3> Welcome to my portfolio website!!</h3>
@@ -60,6 +72,23 @@ Tested: July 1, 2023; Passed on Chrome browsers.
         <p> Copyright © 2023 All rights reserved by Nannan Huang. All rights reserved. </p> 
 
     </footer>
-
+    <nav id="nav_list">
+     <p id="quicknav"> Quick Nav</p>
+      <ul>
+          <li><a href="index.html">Home</a></li>  
+          <li><a href="about.html">About</a></li> 
+          <li><a href="project.html">Project</a>
+              <ul>
+                  <li><a href="#">Link1</a></li>
+                  <li><a href="#">Link2</a></li>
+                  <li><a href="#">Link3</a></li>
+                </ul>
+          </li>
+          <li><a href="reflection.html">Reflection</a> </li>
+          <li><a href="#">Contact</a></li> 
+         
+        </ul>
+    </nav>
+</div>
 </body>
 </html>

@@ -13,37 +13,96 @@ Tested: July 1, 2023; Passed on Chrome browsers.
                <meta charset="utf-8">
                <meta name="viewport" content="width=device-width,initial-scale=1">
                <title>Project</title>
-               <link rel="stylesheet" href="style.css">
+               <link rel="stylesheet" href="stylepro.css">
                <link rel="stylesheet" href="nav.css">
 </head>
 <body>
-    <nav> 
-         <ul>
-          <li class="nav"><a href="#">Contact</a></li> 
-          <li class="nav"><a href="reflection.html">Reflection</a></li>
-          <li class="nav"><a href="project.html">Project</a>
-               <ul class="dropdown">
-                 <li><a href="#">Link1</a></li>
-                 <li><a href="#">Link2</a></li>
-                 <li><a href="#">Link3</a></li>
-               </ul>
-         </li>
-          <li class="nav"><a href="about.html">About</a></li>
-          <li class="nav"><a href="index.html">Home</a></li>   
-        </ul>
-     </nav>
-     <header> <p> Nannan Huang</p> </header>
+  <header>
+    <div class="nav">
+         <label for="toggle">&#9776;</label>
+         <input type="checkbox" id="toggle"/>
+          <div class="mobilemenu">
+             <ul>
+               <li class="menu"><a href="#">Contact</a></li> 
+               <li class="menu" ><a href="reflection.html">Reflection</a></li>
+               <li class="menu"><a href="project.html">Project</a>
+                   <ul class="dropdown" id="hideitem">
+                     <li><a href="#">Link1</a></li>
+                     <li><a href="#">Link2</a></li>
+                     <li><a href="#">Link3</a></li>
+                   </ul>
+               </li>
+               <li class="menu"><a href="about.html">About</a></li>
+               <li class="menu" ><a href="index.html">Home</a></li>   
+            </ul>
+            </div>
+            <p> Nannan Huang</p>
+           </div>
+         </header>
 
-    <main>
-         <h1> <!-- add heading1 --></h1>
-
-    </main>
-
-
+         <h1> Projects</h1>
+         <div class="grid">
+        <main>
+         <p class="project1">
+          Project 1<br>
+          This online learning module is designed to teach second-grade 
+          students about food chains in an interactive and engaging way. 
+          Three digital media works I created are embedded in the project 
+          to effectively deliver the content. The digital video serves as
+           a hook to attract and entertain students at the beginning of the 
+           lesson. It is a puppet show that engages young students in learning 
+           how energy is transferred from one living thing to another living 
+           thing by eating and being eaten in a food chain. The image is used 
+           as the main element to teach the key concepts with a vivid food chain
+            example. The audio is aimed to provide a more detailed interpretation 
+            of the image to better support student learning.
+         </p>
+          <p class="project2">
+          Project 2 <br>
+          This board game is designed to reinforce players' math knowledge and skills
+           related to U.S. money via game playing. The goal of this board game is for 
+           players to help Zoombinis to be the first one that collects $300. This game 
+           has a 6-sided dice, a spinner, three categories of question cards with their
+            answer cards, a deck of function cards, coins and bills, a game board and 
+            the Zoombini game pieces. Players roll the dice to move their game pieces and 
+            collect the money shown in the space where their game pieces land. Then, players
+             spin a spinner to determine what categories of cards they draw. If they draw a 
+             trivia card of a certain category, they need to answer the question correctly to 
+             earn extra money. If they draw a function card, they need to carry out the action 
+             described in the card.
+         </p>
+         <p class="project3">
+          Project 3 <br>
+          This is a group project for instructional design that I participated in. In this 
+          project, the team worked together to identify a performance problem of phonics 
+          teaching at the Mullanphy Botanical Elementary School via need assessment and 
+          gap analysis. After conducting the learner analysis, contextual analysis and 
+          task analysis, the team designed and developed a training program for the teachers
+           to better implement phonics instruction.
+        </p>
+      </main>
+     </div>
     <footer> 
         <p> Nannan Huang <br> nh2z8@missouri.edu</p>
         <p> Copyright © 2023 All rights reserved by Nannan Huang. All rights reserved. </p> 
-
+  
     </footer>
+     <p id="quicknav"> Quick Nav</p>
+    <nav id="nav_list">
+       <ul>
+           <li><a href="index.html">Home</a></li>  
+           <li><a href="about.html">About</a></li> 
+           <li><a href="project.html">Project</a>
+               <ul>
+                   <li><a href="#">Link1</a></li>
+                   <li><a href="#">Link2</a></li>
+                   <li><a href="#">Link3</a></li>
+                 </ul>
+           </li>
+           <li><a href="reflection.html">Reflection</a> </li>
+           <li><a href="#">Contact</a></li> 
+          
+         </ul>
+        </nav>
 </body>
 </html>
