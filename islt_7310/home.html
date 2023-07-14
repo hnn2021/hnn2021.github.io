@@ -1,47 +1,71 @@
 <!DOCTYPE html>
 <!--
-Use:  This document displays the home page for the website. It describes the 
+Use: This document displays the home page for the website. It describes the 
 purpose and goals of the website.
-Author:  Nannan Huang
-School/Term:  The University of Missouri-Columbia, Summer 2023
+Author: Nannan Huang
+School/Term: The University of Missouri-Columbia, Summer 2023
 Developed: June 18, 2023
-Tested:  June 18, 2023; Passed on Safari and Chrome browsers.
+Updated: July 14, 2023
+Tested: July 14, 2023; Passed on Chrome browsers.
 -->
 
 <html lang="en-US">
 <head>
-               <meta charset="utf-8">
-               <title>Home Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="stylehome.css">
+  <link rel="stylesheet" href="nav.css">
 </head>
+
 <body>
-    <header> Nannan Huang</header>
-    <nav> <!-- add content later --> </nav>
+<header>
+    <div class="nav">
+      <h1> Nannan Huang</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li>
+            <a href="project.html">Project</a>
+            <ul class="dropdown">
+              <li><a href="#">Link1</a></li>
+              <li><a href="#">Link2</a></li>
+              <li><a href="#">Link3</a></li>
+            </ul>
+          </li>
+          <li><a href="reflection.html">Reflection</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="grid">
+    <img src="photo.JPG" alt="about me image" id="myImage">
     <main>
-          <h1> Hello! </h1>
-          <h3> Welcome to my portfolio website!!</h3>
-          <p>  On this website, you are going to know more about me, my accomplishments 
-               and personal reflections during my study in the Learning Technology and 
-               Design program at the University of Missouri-Columbia. </p>
-          <p>  This website is used not only to showcase my personality and attributes, 
-               but also to exhibit my skills, knowledge, and experiences of using different
-               technology tools and instructional design principles and techniques to create 
-               effective and relevant learning experiences for learners. You will see several 
-               projects I created in different courses and how I integrated them into my own 
-               classroom to support students learning. </p>
-          <p>  This website is also a place where I share my self-reflections, aspirations,
-               and goals to examine and motivate myself. It is where I dive deeper into my own 
-               learning and evaluate my professional growth. </p>
-          <p>  My study in the program was a great learning journey for me, and I am 
-               glad to share it with you here… </p>
-       
+      <h2>Hello!</h2>
+      <h3>Welcome to my portfolio website!!</h3>
+      <p>On this website, you are going to know more about me, my accomplishments 
+        and personal reflections during my study in the Learning Technology and 
+        Design program at the University of Missouri-Columbia.</p>
+      <p>This website is used not only to showcase my personality and attributes, 
+        but also to exhibit my skills, knowledge, and experiences of using different
+        technology tools and instructional design principles and techniques to create 
+        effective and relevant learning experiences for learners. You will see several 
+        projects I created in different courses and how I integrated them into my own 
+        classroom to support students' learning.</p>
+      <p>This website is also a place where I share my self-reflections, aspirations,
+        and goals to examine and motivate myself. It is where I dive deeper into my own 
+        learning and evaluate my professional growth.</p>
+      <p>My study in the program was a great learning journey for me, and I am 
+        glad to share it with you here…</p>
     </main>
+  </div>
 
-
-    <footer> 
-        <p> Nannan Huang <br> nh2z8@missouri.edu</p>
-        <p> Copyright © 2023 All rights reserved by Nannan Huang. All rights reserved. </p> 
-
-    </footer>
-
+  <footer style="footer"> 
+    <p>Nannan Huang <br> nh2z8@missouri.edu</p>
+    <p>Copyright © 2023 All rights reserved by Nannan Huang. All rights reserved.</p> 
+  </footer>
 </body>
 </html>

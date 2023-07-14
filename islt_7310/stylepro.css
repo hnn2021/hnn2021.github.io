@@ -1,7 +1,6 @@
 /* style for about page*/
 
-h1 { color: #ff6600;
-text-align: center
+h1 { color: #ffffff;
 }
 h2 {
 text-align: center;
@@ -24,13 +23,12 @@ main {
 
   }
 .grid {
-    grid-template-rows: 150%;
     grid-template-columns: 50fr 50fr 50fr; 
     grid-gap: 100pt;
   }
 
  #project1 {
-     grid-row: 1;  
+  
      grid-column: 1;
      width: 100%;
      height: 100%;
@@ -41,7 +39,6 @@ main {
    
  }
  #project2 {
-    grid-row: 1;  
     grid-column: 2;
     width: 100%;
     height: 100%;
@@ -49,8 +46,7 @@ main {
     
 }
 
-#project3 {
-    grid-row: 1;  
+#project3 { 
     grid-column: 3;
     width: 100%;
     height: 100%;
@@ -59,105 +55,27 @@ main {
 }
 
 
-footer{
-    margin-left: 50px;
-    margin-top: 50px;
-    margin-bottom: 10px;
-    margin-left: 20pt;
-    font-size: medium;
-    width: 30%;
+
+
+  footer {
+    margin-top: 30pt;
+    padding-left: 10pt;
   }
-
-  #quicknav {
-    text-align: center;
-    font-size: large;
-    font-weight: bold;
-    margin-top: 0%;
-    margin-left: 500pt;
-    
-
-  }
-  #nav_list a {
-    margin-left: 550pt;
-    text-align: center;
-
-  }
-
-
-
-  @media only screen and (max-width: 768px) {
-
-    header {
-      text-align: center;
-      font-size: medium;
-      margin-left: 10pt;
-      width: 100%;
-    }
   
-    .grid {
-      background-color: #ffffff;
-      grid-template-rows: auto auto auto auto auto ;
-      grid-template-columns: 2fr 2fr; 
-    }
-
- header {
-      font-size: medium;
-      margin: 5pt;
-      width: 500pt;
-      float: center;
-    }
-
- 
-    #project1 {
-        grid-row: 1;  
-        grid-column: 1 /span 2;
-        width: 200%;
-        height: 700%;
-        margin: 50pt;
-     
-      
-    }
-    #project2 {
-       grid-row: 2;  
-       grid-column: 1 /span 2;
-       width: 200%;
-       height: 700%;
-       margin: 50pt;
-       
-   }
-   
-   #project3 {
-       grid-row: 3;  
-       grid-column: 1 /span 2;
-       width: 200%;
-       height: 700%;
-       margin: 50pt;
-      
-   }
-   
-
-    footer {
-      grid-row: 4;
-      grid-column: 1;
-      font-size: 1.00em;
-      margin-top: 10px;
-      margin-bottom: 20px;
-      margin-left: 70pt;
-    }
-
-    #quicknav {
-        grid-row: 4;
-        grid-column: 2;
-        text-align: center;
-        margin-top: 90px;
-        margin-left: 30%;
-        font-size: large;
-        font-weight: bold;
-    }
-    #nav_list {
-      grid-row: 4;
-      grid-column: 2;
-      font-size: 1.00em;
-    }
-
+  footer {
+    border: 1px solid #f68810;
+    background-color: #f68810;
+    color:#fff;
   }
+  
+
+
+
+
+    @media only screen and (max-width: 768px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+

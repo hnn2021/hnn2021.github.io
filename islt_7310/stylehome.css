@@ -1,122 +1,38 @@
-/* style for about page*/
-
-h1 { color: #ff6600;
-text-align: left
-margin-left: 5px;
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
 }
-h3 {
-text-align: center;
-margin-left: 40px;
+
+#myImage {
+  order: 2;
+  margin: 20pt 20pt 20pt 100pt;
+  height: 75%;
 }
 
 main {
-    width: 100%;
-    height: auto;
-    padding: auto;
-    margin-left: 130pt;
-    border: none; 
+  order: 1;
+  padding-left:10%;
+  
 }
-.grid {
-    display: grid;
-    background-color: #d7dee5;
-    grid-template-rows: auto auto auto;
-    grid-template-columns: 2fr 2fr 2fr 2fr; 
-  }
- 
-  main {
-    grid-row: 1;
-    grid-column: 1 / span 2;
-  }
 
-  img {
-    grid-row: 1;
-    grid-column: 3/span 4;
-    margin-top: auto;
-    width: 400px;
-    height: 450px;
-    margin-left: 350px;
-    margin-top: 50px;
+
+h1 {    color: #ffffff;}
+h2 {    color: #ff6600;}
+
+footer {
+  padding-left:10pt;
+
+}
+
+footer {
+  border: 1px solid #f68810;
+    background-color: #f68810;
+    color:#fff;
   }
 
-  footer{
-    grid-row: 3;
-    grid-column: 1 / span 2;
-    margin-left: 100px;
-    margin-top: 100px;
-    margin-bottom: 10px;
-    font-size: medium;
-  }
-  #quicknav {
-    grid-row: 3;
-    grid-column: 4;
-    text-align: center;
-    margin-top: 90px;
-    margin-left: 30%;
-    font-size: large;
-    font-weight: bold;
-
-  }
-  #nav_list {
-    grid-row: 3;
-    grid-column: 4;
-  }
-
-
-  @media only screen and (max-width: 768px) {
-    header {
-      text-align: center;
-      font-size: medium;
-      margin-left: 10pt;
-      width: 100%;
+    @media only screen and (max-width: 768px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
     }
-  
-    .grid {
-      background-color: #ffffff;
-      grid-row: auto auto auto auto;
-      grid-template-columns: 1fr 1fr; 
-    }
-
- header {
-      font-size: medium;
-      margin: 5pt;
-      width: 500pt;
-      float: center;
-    }
-    #myImage {
-      display: block;
-      grid-row: 1;
-      grid-column: 1 / span 2;
-      width: 35%;
-      height: 50%;
-      margin-top: 240pt;
-      margin-left: 18%;
-    }
-    main {
-      grid-row: 2; 
-      grid-column: 1 / span 2;
-      margin-right: 0;
-      width: 50%;
-      margin-top: 0px;
-      margin-left: 90px;
-      margin-bottom: 10pt;
-      font-size: 1.20em;
-      text-align: center;
-      padding: 10pt;
-    }
-  
-
-    footer {
-      grid-row: 3;
-      grid-column: 1;
-      font-size: 1.00em;
-      margin-top: 10px;
-      margin-bottom: 20px;
-      margin-left: 70pt;
-    }
-    #nav_list {
-      grid-row: 3;
-      grid-column: 2 ;
-      font-size: 1.00em;
-    }
-
-  }
