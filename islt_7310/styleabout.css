@@ -1,13 +1,15 @@
 h1 { color: #ffffff;
 }
-h2 { color: #ff6600;
+h2 {
 text-align: center;
 margin-left: 100pt;
+font-family: 'Bungee Spice', cursive;
 }
 h3 { color: #ff6600;
   text-align: center;
   font-size: large;
   font-weight: bold;
+  font-family: 'Bungee Spice', cursive;
 }
 
 #para1::first-letter {
@@ -114,13 +116,17 @@ footer {
       grid-template-columns: 1fr 1fr; 
     }
 
- 
 
    h2 {
       grid-row: 1;
       grid-column: 1/ span 2;
       font-size: 1.5em;
       font-weight: bold;
+      
+   }
+
+   h3 {
+        margin-left: 60%;
    }
     main p {
       grid-row: 2; 
@@ -174,6 +180,66 @@ footer {
       margin-bottom: 20px;
       margin-left: 10pt;
       width: 100%;
+    }
+
+  }
+  @media print {
+    @page {
+      margin: 1in;
+    }
+    .nav h1 {
+      width: 100%;
+      font-size: xx-large;
+      font-weight: bold;
+      margin-top: 0pt;
+      padding: 10px;
+      color: black;
+    }
+
+    h2 {
+    width: 100%;
+    margin-left: 50%;
+
+    }
+    h3 {
+      display: none;
+    }
+
+    #myImage {
+      display: none;
+    }
+    .photo-gallery img {
+      display: none;
+    }
+    body {
+      color: black;
+      font-family: sans-serif;
+      background-color: none; 
+    }
+    main p {
+      width: 160%;
+      margin-left: 65px;
+      font-size: 14pt;
+      color: black;
+    }
+    main p a {
+      display: none;
+    }
+    .nav ul.menu { 
+      display: none;
+    }
+    blockquote {
+      font-size: large;
+      margin-left: 7%;
+    }
+
+    footer {
+      color: black;
+     text-align: center;
+      font-size: 1.00em;
+      margin-top: 5px;
+      margin-left: 10pt;
+      width: 95%;
     }
 
   }
