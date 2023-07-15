@@ -3,13 +3,13 @@ h1 { color: #ffffff;
 h2 {
 text-align: center;
 margin-left: 100pt;
-font-family: 'Bungee Spice', cursive;
+/*font-family: 'Bungee Spice', cursive;*/
 }
 h3 { color: #ff6600;
   text-align: center;
   font-size: large;
   font-weight: bold;
-  font-family: 'Bungee Spice', cursive;
+ /* font-family: 'Bungee Spice', cursive;*/
 }
 
 #para1::first-letter {
