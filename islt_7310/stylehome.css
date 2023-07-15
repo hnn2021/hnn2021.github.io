@@ -30,6 +30,12 @@ footer {
     background-color: #f68810;
     color:#fff;
   }
+  .icon {
+    transition: 0.5s;
+  }
+  .icon:hover {
+    transform: scale(2.2);
+  }
 
     @media only screen and (max-width: 768px) {
       .grid {
