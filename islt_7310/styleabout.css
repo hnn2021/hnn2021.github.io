@@ -22,16 +22,7 @@ h3 { color: #ff6600;
     font-weight: bold;
     color: #2c8bea;
     }
-  footer {
-      padding-left:10pt;
-    
-    }
-    
-  footer {
-      border: 1px solid #f68810;
-        background-color: #f68810;
-        color:#fff;
-      }
+
 
 .para { text-indent: 2em;}
 
@@ -102,8 +93,14 @@ footer {
   border: 1px solid #f68810;
   background-color: #f68810;
   color:black;
-}
 
+}
+  .icon {
+    transition: 0.5s;
+  }
+  .icon:hover {
+    transform: scale(2.2);
+  }
 
 
   @media only screen and (max-width: 768px) {
