@@ -90,7 +90,12 @@ margin-left: 22%;
     color:black;
   }
   
-
+  .icon {
+    transition: 0.5s;
+  }
+  .icon:hover {
+    transform: scale(2.2);
+  }
 
 
 

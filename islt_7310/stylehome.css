@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Bungee Spice', cursive;
+  src: url(BungeeSpice-Regular.ttf);
+}
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -18,7 +23,10 @@ main {
 
 
 h1 {    color: #ffffff;}
-h2 {    color: #ff6600;}
+h2 {    color: #ff6600;
+  font-family: 'Bungee Spice', cursive;
+}
+
 
 footer {
   padding-left:10pt;
@@ -40,5 +48,13 @@ footer {
     @media only screen and (max-width: 768px) {
       .grid {
         grid-template-columns: 1fr;
+      }
+      footer {
+
+        width: 150%;
+      }
+      header {
+
+        width: 150%;
       }
     }
