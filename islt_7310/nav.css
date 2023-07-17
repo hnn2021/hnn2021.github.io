@@ -55,10 +55,13 @@ nav ul.menu {
   display: none;
   position: absolute;
   background-color: #f68810;
-  padding: 10px;
+  padding: 5px;
   list-style: none;
 }
-
+.dropdown li a {
+  font-size: small;
+  line-height: 25pt;
+}
 .menu li:hover .dropdown {
   display: block;
 }
