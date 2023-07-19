@@ -110,10 +110,8 @@ footer {
       text-align: center;
       font-size: medium;
       margin-left: 10pt;
-      width: 250%;
+      width: 200%;
       font-size: medium;
-      margin: 5pt;
-      width: 598pt;
       float: center;
     }
   
@@ -160,7 +158,6 @@ footer {
       width: 130%;
       height: 60%;
     }
-  
     blockquote {
       grid-row: 4; 
       grid-column: 1 / span 2;
