@@ -96,8 +96,27 @@ margin-left: 22%;
   .icon:hover {
     transform: scale(2.2);
   }
+  caption {
+    font-size: x-large;
+    font-weight: bold;
+    padding: 1.5em;
+  }
+  table {
+    border: 2px solid #f68810;
+    margin: 10px auto;
+  }
 
-
+  th, td {
+  border: 2px solid #f68810;
+  padding: 0.5em 1.0em;
+  text-align: center;
+  }
+  thead {
+    background-color: #f68810;
+  }
+  td:nth-child(odd) {
+    background-color: #d7dee5;
+  }
 
     @media only screen and (max-width: 768px) {
      
@@ -112,4 +131,46 @@ margin-left: 22%;
           width: 60%;
        
         }
+
+      }
+  @media only screen and (max-width: 479px) {
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  width: 165%;
+  }
+
+  .flex-container p {
+    text-align: center;
+    font-size: medium;
+  }
+  footer {
+
+    width: 165%;
+  }
+  header {
+    width: 165%;
+
+  }
+  caption {
+    font-size: large;
+  }
+table {
+  width: 165%;
+  margin-left: 5%;
+}
+th, td {
+  display: block;
+}
+thead {
+  display: none;
+}
+tbody td {
+ border-bottom-style: none;
+}
+tr td:first-child {
+  font-weight: bold;
+  background-color: #d7dee5;
+}
       }
