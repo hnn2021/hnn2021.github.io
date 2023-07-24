@@ -21,7 +21,7 @@ h2 {
   }
 
   .flex-container > div {
-   background-color:#d7dee5;
+   background-color:#d9e9fa;
    margin: 30pt;
    padding: 30pt;
   
@@ -98,6 +98,7 @@ margin-left: 22%;
   }
   caption {
     font-size: x-large;
+    font-family: 'Bungee Spice', cursive;
     font-weight: bold;
     padding: 1.5em;
   }
@@ -115,7 +116,7 @@ margin-left: 22%;
     background-color: #f68810;
   }
   td:nth-child(odd) {
-    background-color: #d7dee5;
+    background-color: #d9e9fa;
   }
 
     @media only screen and (max-width: 768px) {

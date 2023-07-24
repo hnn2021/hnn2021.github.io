@@ -9,15 +9,22 @@
   grid-gap: 20px;
 }
 
-#myImage {
+#meImage {
   order: 2;
   margin: 20pt 20pt 20pt 100pt;
-  height: 75%;
+  height: 90%;
+  width: 70%;
+ margin-bottom: 50pt;
+
 }
 
 main {
   order: 1;
-  padding-left:10%;
+  word-spacing: normal;
+  line-height: 20pt;
+  width: 80%;
+  margin-left: 65pt;
+  margin-bottom: 50pt;
   
 }
 

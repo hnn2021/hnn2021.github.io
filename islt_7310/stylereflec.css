@@ -2,17 +2,17 @@
   font-family: 'Bungee Spice', cursive;
   src: url(BungeeSpice-Regular.ttf);
 }
+
 h1 { color: #ffffff;
 }
-h2 { color: #ff6600;
-text-align: center;
-font-family: 'Bungee Spice', cursive;
-}
-h3 { color: black;
-  text-align: center;
-  font-size: larger;
 
-}
+h2 {
+  text-align: center;
+  margin-top: 3%;
+  font-family: 'Bungee Spice', cursive;
+  }
+
+
 main {
     width: 70%;
     height: 100%;
@@ -25,16 +25,15 @@ main {
 }
 .grid {
     display: grid;
-    background-color: #d7dee5;
     grid-template-rows: auto auto;
     grid-template-columns: 2fr 2fr; 
+    margin: 20pt;
   }
  
   main {
     grid-row: 1;
     grid-column: 1 / span 2;
   }
-
 
   footer{
     padding-left: 10pt;
