@@ -11,10 +11,11 @@
 
 #meImage {
   order: 2;
-  margin: 20pt 20pt 20pt 100pt;
-  height: 90%;
+  height: 85%;
   width: 70%;
- margin-bottom: 50pt;
+  margin-left: 60pt;
+ margin-bottom: 60pt;
+ margin-top: 30pt;
 
 }
 
@@ -22,8 +23,8 @@ main {
   order: 1;
   word-spacing: normal;
   line-height: 20pt;
-  width: 80%;
-  margin-left: 65pt;
+  width: 70%;
+  margin-left: 90pt;
   margin-bottom: 50pt;
   
 }
@@ -59,12 +60,22 @@ footer {
       footer {
 
         width: 130%;
+        margin-top: 10%;
       }
       header {
 
-        width: 130%;
+        width: 135%;
       }
-      #myImage {
-        height: 60%;
+      main {
+        word-spacing: normal;
+        line-height: 20pt;
+        width: 80%;
+        margin-left: 65pt;
+        
+      }
+      #meImage {
+        margin-left: 15%;
+        height: 90%;
+        width: 100%;
       }
     }
