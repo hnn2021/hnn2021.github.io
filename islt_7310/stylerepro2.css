@@ -19,7 +19,7 @@ h3 { color: black;
 
 .grid {
     display: grid;
-    background-color: #d7dee5;
+    background-color: #d9e9fa;
     grid-template-rows: auto;
     grid-template-columns: auto auto; 
   }
